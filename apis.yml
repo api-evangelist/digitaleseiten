@@ -1,7 +1,27 @@
 aid: digitaleseiten
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digitaleseiten.png
 name: digitaleseiten
-description: digitaleseiten is a company surfaced as a portfolio company of point-nine and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Digitale Seiten is a German online marketing company that operates a network of
+  28+ industry-specific business directories for craftspeople and local service
+  providers (for example Elektriker.org, Klempner.org, Maler.org and Dachdecker.org).
+  The platform lets tradespeople create free business listings, distributes regional
+  customer inquiries and job requests to registered companies as leads, improves their
+  search-engine visibility, and provides review-collection tools. According to the
+  company it lists 869,000+ registered businesses and has matched 765,000+ job
+  assignments. It is a B2B directory and lead-generation service and does not publish
+  a public developer API, documentation, or developer portal. Backed by Point Nine.
 url: https://raw.githubusercontent.com/api-evangelist/digitaleseiten/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Business Directory
+- Lead Generation
+- Local Services
+- Marketplace
+- Home Services
+- SEO
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.digitaleseiten.de
+  url: https://www.digitaleseiten.de
+- type: DomainSecurity
+  url: security/digitaleseiten-domain-security.yml
+- type: Blog
+  url: https://www.digitaleseiten.de/blog
+- type: Support
+  url: https://www.digitaleseiten.de/kontakt
+- type: TermsOfService
+  url: https://www.digitaleseiten.de/agb
+- type: PrivacyPolicy
+  url: https://www.digitaleseiten.de/datenschutz
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
